@@ -21,6 +21,13 @@
 1. Клонируйте репозиторий с source-кодом и перейдите в него
 ```
 https://github.com/alexxten/vet-clinic-dogs-service.git
+```
+или gitlab
+```
+https://gitlab.com/mlds13/vet-clinic-dogs-service.git
+```
+далее перейдите в директорию с кодом
+```
 cd vet-clinic-dogs-service
 ```
 2. Заполните файл с переменными окружения variables.env, необходимыми для сервиса
