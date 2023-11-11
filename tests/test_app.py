@@ -10,7 +10,7 @@ def test_root():
     response = client.get('/')
     assert response.status_code == 200
 
-# TODO
+# TODO тут нужен мок бд, чтобы были юниттесты, но я только учусь)))
 # def test_get_post():
 #     response = client.get('/post')
 #     assert response.status_code == 200

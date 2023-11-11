@@ -94,6 +94,9 @@ def get_dogs(
     result = db.query(models.Dogs)
     if kind:
         result = db.query(models.Dogs).filter(models.Dogs.kind == kind)
+    # тут и ниже где результат возвращается из бд не поняла,
+    # нужно ли преобразовывать модель таблицы в pydantic
+    # кажется что тк они одинаковые смысла нет, но ide понятно ругается на типы((
     return result.all()
 
 
